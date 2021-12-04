@@ -44,7 +44,7 @@ routing.post("/subscription", async (req, res, next) => {
       username,
       subscribeObj
     );
-    res.json({ message: "Subscription Created Successfully" });
+    res.json(subscribeData);
   } catch (err) {
     next(err);
   }
@@ -54,9 +54,10 @@ routing.post("/subscription", async (req, res, next) => {
 routing.get("/subscription/:username", async (req, res, next) => {
   let username = req.params.username;
   try {
-    let transactionDetails = await service.getTransactions(username);
+    let subscriptionDetails = await service.getSubscription(username);
+    console.log(subscriptionDetails[0].subscription);
     res.status(200);
-    res.json(transactionDetails);
+    res.json(subscriptionDetails[0].subscription);
   } catch (err) {
     next(err);
   }
@@ -65,11 +66,15 @@ routing.get("/subscription/:username", async (req, res, next) => {
 //Routing to get subscription details with date
 routing.get("/subscription/:username/:date", async (req, res, next) => {
   let username = req.params.username;
-  let date = Date(req.param.date);
+  let tempDate = req.params.date;
+  let date = new Date(tempDate);
   try {
-    let transactionDetails = await service.getTransactions(username);
+    let subscriptionDetails = await service.getSubscriptionValidity(
+      username,
+      date
+    );
     res.status(200);
-    res.json(transactionDetails);
+    res.json(subscriptionDetails);
   } catch (err) {
     next(err);
   }
