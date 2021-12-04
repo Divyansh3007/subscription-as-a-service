@@ -1,11 +1,11 @@
 {
-  "name": "Wishup",
+  "name": "Wishup_SaaS",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
-  "author": "ETA",
+  "author": "Divyansh verma",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
