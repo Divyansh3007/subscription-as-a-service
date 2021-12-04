@@ -1,0 +1,34 @@
+Sat Dec 04 2021 - TypeError: dbLayer.insertScript is not a function
+    at Object.service.insertScript (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\src\service\subscribe.js:34:28)
+    at A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\src\routes\routing.js:27:30
+    at Layer.handle [as handle_request] (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\layer.js:95:5)
+    at A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:335:12)
+    at next (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:174:3)
+    at router (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:317:13)
+    at A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:335:12)
+    at next (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:275:10)
+Sat Dec 04 2021 - TypeError: dbLayer.insertScript is not a function
+    at Object.service.insertScript (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\src\service\subscribe.js:34:28)
+    at A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\src\routes\routing.js:27:30
+    at Layer.handle [as handle_request] (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\layer.js:95:5)
+    at A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:335:12)
+    at next (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:174:3)
+    at router (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:317:13)
+    at A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:335:12)
+    at next (A:\ComCodeBase\Interview based projects\WishUp\subscription-as-a-service\node_modules\express\lib\router\index.js:275:10)

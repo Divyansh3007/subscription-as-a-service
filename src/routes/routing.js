@@ -79,3 +79,5 @@ routing.get("/subscription/:username/:date", async (req, res, next) => {
     next(err);
   }
 });
+
+module.exports = routing;

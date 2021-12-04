@@ -6,6 +6,7 @@ let createConnection = async () => {
 };
 
 let model = {};
+
 // to add new user.
 model.createUser = async (username) => {
   let UserData = await collection.create(username);
@@ -55,3 +56,6 @@ model.getSubscriptionValidity = async (username) => {
   );
   return subscribeData;
 };
+
+createConnection();
+module.exports = model;
